@@ -9,6 +9,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: white;
+  /* max-width: 2500px; */
 }
 
 /* Navigation */
@@ -46,19 +47,15 @@ body {
   top: 10px;
 }
 
-/* .dashboard .navigation .tab .unit .Overview{
-  position: absolute;
-  top: 20px;
-  height: 50px;
-  width: 100%;
-  background-color: green;
-} */
-
 .dashboard .navigation .tab .unit .Overview img{
   margin-top: -1px;
   position: absolute;
 }
 
+.dashboard .navigation .tab .unit .Overview p{
+  margin-top: 15px;
+  position: absolute;
+}
 
 .dashboard .navigation .tab .unit .category{
   height: 50px;
@@ -68,10 +65,6 @@ body {
   margin-top: 3px;
 }
 
-.dashboard .navigation .tab .unit .Overview p{
-  margin-top: 15px;
-  position: absolute;
-}
 
 .dashboard .navigation .tab .unit p{
   position: absolute;
@@ -79,84 +72,137 @@ body {
   top: 3px;
   left: 55px;
 }
+/* Tab */
 
-
+/* Gift */
 .dashboard .navigation .gift{
-  height: 150px;
-  bottom: 125px;
+  height: 200px;
+  top: 120px;
+  bottom: 10px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
+  position: relative;
 }
 
 .dashboard .navigation .gift .box{
   width: 150px;
   height: auto;
-  top: -25px;
-  margin-left: 15px;
+  bottom: 110px;
+  left: 25px;
+  position: absolute;
 }
 
 .dashboard .navigation .gift p{
-  font-size: 15px;
-  top: 80px;
   text-align: center;
-  left: 20px;
-  right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  top: 80px;
+  left: 30px;
+  right: 30px;
+  position: absolute;
 }
 
 .dashboard .navigation .gift button{
-  left: 20px;
-  top: 190px;
+  height: 30px;
+  width: 120px;
+  left: 50px;
+  bottom: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
   font-size: 13px;
+  position: absolute;
 }
 /* == Gift end ==*/
 
 /* Main */
 .main{
-  width: 71%;
+  /* width: 5%; */
   margin-left: 17%;
   margin-top: -760px;
 }
 
 /* Search */
 .dashboard .main .search{
-  height: 60px;
-  width: 1300px;
-  margin-left: -31px;
-  box-shadow: 2px 0px 15px 2px rgba(0 0 0/ 0.15)
+  height: 90px;
+  width: 1289px;
+  margin-left: -28px;
+  box-shadow: 0px 0px 0px 2px rgba(0 0 0/ 0.15);
+  position: relative;
+}
+
+.dashboard .main .search h1{
+  position: absolute;
+  top: 30px;
+  left: 10px;
 }
 
 .dashboard .main .search form{
-  margin: -30px 0px 0px 300px;
+  margin: 45px 0px 0px 500px;
+  position: absolute;
 }
 
 .dashboard .main .search form input{
   height: 40px;
+  width: 17em;
   margin-left: 370px;
   font-size: 15px;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.dashboard .main .search form img{
+  position: absolute;
+  left: 590px;
+  top: 5px;
 }
 
 .dashboard .main .search div{
-  margin-top: 10px;
+  left: 1200px;
+  top: 45px;
+  position: absolute;
+}
+
+.dashboard .main .search .notification{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard .main .search .notification img:nth-child(1){
+  right: 10px;
+  top: 13px;
+  position: absolute;
+}
+
+.dashboard .main .search .notification img:nth-child(2){
+  right: -70px;
+  position: absolute;
 }
 /* Search ends */
 
 
 /* Chart */
-/* .dashboard .main .chart{
-  margin-top: -40px;
+.dashboard .main .chart{
+  margin-top: 20px;
   position: relative;
-  height: 220px;
-} */
+  /* height: 220px; */
+}
 
 /*== First chart ==*/
-/* .dashboard .main .first_chart{
-  width: 370px;
+.dashboard .main .first_chart{
+  width: 350px;
   height: 170px;
   border-radius: 10px;
   position: absolute;
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
 }
 
 .dashboard .main .first_chart .chartBox{
   width: 170px;
-  left: 300px;
+  left: 230px;
   position: absolute;
   margin-top: 5px;
   margin-left: -220px;
@@ -165,18 +211,18 @@ body {
 
 .dashboard .main .first_chart h1{
   position: absolute;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 250px;
 }
 
 .dashboard .main .first_chart p{
   position: absolute;
-  margin-top: 60px;
+  margin: 40px 0px 0px 250px;
 }
 
 .dashboard .main .first_chart h2{
   position: absolute;
-  margin: 70px 0px 0px -150px;
-} */
+  margin: 70px 0px 0px 70px;
+}
 
 
 /* First chart ends*/
@@ -186,31 +232,33 @@ body {
   width: 370px;
   height: 170px;
   position: absolute;
-  margin-left: 420px;
+  margin-left: 380px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
 }
 
 .dashboard .main .chart .second_chart .chartBox{
+  height: 170px;
   width: 170px;
   left: 300px;
   position: absolute;
   margin-top: 5px;
-  margin-left: -285px;
-  height: 170px;
+  margin-left: -290px;
 }
 
 .dashboard .main .second_chart h1{
   position: absolute;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 250px;
 }
 
 .dashboard .main .second_chart p{
   position: absolute;
-  margin-top: 60px;
+  margin: 40px 0px 0px 250px;
 }
 
 .dashboard .main .second_chart h2{
   position: absolute;
-  margin: 70px 0px 0px -150px;
+  margin: 70px 0px 0px 75px;
 }
 
 /* Second chart ends */
@@ -219,101 +267,125 @@ body {
 .dashboard .main div.third_chart{
   width: 370px;
   height: 170px;
-  margin-right: -100px;
-  margin-left: 820px;
+  margin-left: 780px;
   position: absolute;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
 }
 
 .dashboard .main .chart .third_chart .chartBox{
   width: 170px;
   left: 300px;
   position: absolute;
-  margin-top: 5px;
-  margin-left: -280px;
+  margin: 5px 0px 0px -290px;
   height: 170px;
 }
 
 .dashboard .main div.third_chart h1{
   position: absolute;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 270px;
 }
 
 .dashboard .main div.third_chart p{
   position: absolute;
-  margin-top: 60px;
+  margin: 40px 0px 0px 270px;
 }
 
 .dashboard .main .third_chart h2{
   position: absolute;
-  margin: 70px 0px 0px -150px;
+  margin: 70px 0px 0px 80px;
 }
 /* Third chart ends */
 
-
+/* Table */
 table{
-  margin-top: 25px;
-  /* width: 100%; */
-  margin-left: 70px;
+  margin-top: 240px;
+  width: 90%;
+  margin-left: -5px;
+  position: relative;
+}
+
+.dashboard .main table thead{
+  background-color: black;
+  width: 1200px;
+  height: 40px;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 15px 0px rgba(0 0 0/ 0.15);
+  position: absolute;
 }
 
 .dashboard .main table thead tr th{
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .dashboard .main table thead tr th.number{
   left: 0px;
+  position: absolute;
 }
 
 .dashboard .main table thead tr th.course_name{
-  left: 150px;
+  left: 200px;
+  position: absolute;
 }
 
 .dashboard .main table thead tr th.department{
-  left: 450px;
+  left: 500px;
+  position: absolute;
 }
 
 .dashboard .main table thead tr th.units{
-  right: -200px;
+  right: 300px;
+  position: absolute;
 }
 
 .dashboard .main table thead tr th.gpa{
-  right: -270px;
+  right: 30px;
+  position: absolute;
 }
 
 /* Table body */
 .dashboard .main table tbody{
   height: 200px;
+  width: 100%;
+  position: absolute;
+  margin-top: 40px;
 }
 
 td{
-  padding: 1px 1px 1px 1px;
+  padding: 5px;
 }
 
 tr td.number{
-  right: 120px;
+  left: 120px;
+  /* position: absolute; */
 }
 
 tr td.course_name{
   left: 150px;
+  position: absolute;
 }
 
 tr td.department{
   left: 450px;
+  position: absolute;
 }
 
 tr td.units{
    right: 300px;
+   position: absolute;
 }
 
 tr td.gpa{
   right: 30px;
+  position: absolute;
 }
 
 /* Table body ends*/
 
 /* Last */
 .dashboard .main .last{
-  margin-top: 260px;
+  margin-top: 350px;
   margin-left: 70px;
   height: 160px;
 }
