@@ -17,7 +17,7 @@ body {
   display: block;
   width: 15%;
   padding-bottom: 5px;
-  height: 100vh;
+  height: 150vh;
   box-shadow: 1px 3px 2px rgba(0 0 0/ 0.4)
 }
 
@@ -80,7 +80,7 @@ body {
   top: 120px;
   bottom: 10px;
   border-radius: 10px;
-  margin: 0px 10px;
+  margin: 10px 10px;
   box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
   position: relative;
 }
@@ -120,12 +120,12 @@ body {
 .main{
   /* width: 5%; */
   margin-left: 17%;
-  margin-top: -760px;
+  margin-top: -1090px;
 }
 
 /* Search */
 .dashboard .main .search{
-  height: 90px;
+  height: 70px;
   width: 1289px;
   margin-left: -28px;
   box-shadow: 0px 0px 0px 2px rgba(0 0 0/ 0.15);
@@ -134,12 +134,12 @@ body {
 
 .dashboard .main .search h1{
   position: absolute;
-  top: 30px;
-  left: 10px;
+  top: 2px;
+  left: 20px;
 }
 
 .dashboard .main .search form{
-  margin: 45px 0px 0px 500px;
+  margin: 15px 0px 0px 500px;
   position: absolute;
 }
 
@@ -169,6 +169,7 @@ body {
   position: absolute;
   display: flex;
   justify-content: space-between;
+  margin-top: -30px;
 }
 
 .dashboard .main .search .notification img:nth-child(1){
@@ -317,6 +318,7 @@ table{
 
 .dashboard .main table thead tr th{
   font-size: 20px;
+  padding-top: 5px;
 }
 
 .dashboard .main table thead tr th.number{
@@ -330,7 +332,7 @@ table{
 }
 
 .dashboard .main table thead tr th.department{
-  left: 500px;
+  left: 550px;
   position: absolute;
 }
 
@@ -346,10 +348,12 @@ table{
 
 /* Table body */
 .dashboard .main table tbody{
-  height: 200px;
-  width: 100%;
+  height: 260px;
+  width: 1200px;
   position: absolute;
   margin-top: 40px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15)
 }
 
 td{
@@ -362,17 +366,17 @@ tr td.number{
 }
 
 tr td.course_name{
-  left: 150px;
+  left: 200px;
   position: absolute;
 }
 
 tr td.department{
-  left: 450px;
+  left: 550px;
   position: absolute;
 }
 
 tr td.units{
-   right: 300px;
+   right: 320px;
    position: absolute;
 }
 
@@ -386,17 +390,49 @@ tr td.gpa{
 /* Last */
 .dashboard .main .last{
   margin-top: 350px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  height: 230px;
+  width: 1200px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.dashboard .main .last .words{
   margin-left: 70px;
-  height: 160px;
+  position: absolute;
+  width: 700px;
 }
 
 .dashboard .main .last img{
-  height: 170px;
-  top: -10px;
+  height: 270px;
+  bottom: 0px;
+  right: 20px;
+  position: absolute;
+}
+
+.dashboard .main .last .words h1{
+  font-size: 40px;
+  top: -20px;
+  position: absolute;
+}
+
+.dashboard .main .last .words p{
+  margin-right: 300px;
+  position: absolute;
+  top: 70px;
 }
 
 .dashboard .main .last .words button{
   height: 40px;
+  width: 130px;
+  border-radius: 30px;
+  background-color: white;
+  color: red;
+  position: absolute;
+  top: 170px;
 }
 /* Last ends */
 }
