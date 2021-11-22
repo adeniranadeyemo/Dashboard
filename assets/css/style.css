@@ -61,7 +61,7 @@ body {
   height: 50px;
   width: 13px;
   border-radius: 0px 5px 5px 0px;
-  background-color: brown;
+  background-color: #A25075;
   margin-top: 3px;
 }
 
@@ -108,7 +108,7 @@ body {
   width: 120px;
   left: 50px;
   bottom: 5px;
-  background-color: green;
+  background-color: #00838F;
   color: white;
   border-radius: 10px;
   font-size: 13px;
@@ -427,9 +427,10 @@ tr td.gpa{
   width: 130px;
   border-radius: 30px;
   background-color: white;
-  color: red;
+  color: #A25075;
   position: absolute;
   top: 170px;
+  font-weight: bold;
 }
 /* Last end */
 
