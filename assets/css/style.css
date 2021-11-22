@@ -1,0 +1,330 @@
+@media only screen and (min-width: 1280px){
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+/* Navigation */
+.dashboard .navigation{
+  display: block;
+  width: 15%;
+  padding-bottom: 5px;
+  height: 100vh;
+  box-shadow: 1px 3px 2px rgba(0 0 0/ 0.4)
+}
+
+.dashboard .navigation div img.logo{
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+}
+ /* Tab */
+.dashboard .navigation .tab{
+  margin-top: 40px;
+}
+
+.dashboard .navigation .tab .unit{
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dashboard .navigation .tab .unit img{
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+/* .dashboard .navigation .tab .unit .Overview{
+  position: absolute;
+  top: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: green;
+} */
+
+.dashboard .navigation .tab .unit .Overview img{
+  margin-top: -1px;
+  position: absolute;
+}
+
+
+.dashboard .navigation .tab .unit .category{
+  height: 50px;
+  width: 13px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: brown;
+  margin-top: 3px;
+}
+
+.dashboard .navigation .tab .unit .Overview p{
+  margin-top: 15px;
+  position: absolute;
+}
+
+.dashboard .navigation .tab .unit p{
+  position: absolute;
+  font-size: 15px;
+  top: 3px;
+  left: 55px;
+}
+
+
+.dashboard .navigation .gift{
+  height: 150px;
+  bottom: 125px;
+}
+
+.dashboard .navigation .gift .box{
+  width: 150px;
+  height: auto;
+  top: -25px;
+  margin-left: 15px;
+}
+
+.dashboard .navigation .gift p{
+  font-size: 15px;
+  top: 80px;
+  text-align: center;
+  left: 20px;
+  right: 20px;
+}
+
+.dashboard .navigation .gift button{
+  left: 20px;
+  top: 190px;
+  font-size: 13px;
+}
+/* == Gift end ==*/
+
+/* Main */
+.main{
+  width: 71%;
+  margin-left: 17%;
+  margin-top: -760px;
+}
+
+/* Search */
+.dashboard .main .search{
+  height: 60px;
+  width: 1300px;
+  margin-left: -31px;
+  box-shadow: 2px 0px 15px 2px rgba(0 0 0/ 0.15)
+}
+
+.dashboard .main .search form{
+  margin: -30px 0px 0px 300px;
+}
+
+.dashboard .main .search form input{
+  height: 40px;
+  margin-left: 370px;
+  font-size: 15px;
+}
+
+.dashboard .main .search div{
+  margin-top: 10px;
+}
+/* Search ends */
+
+
+/* Chart */
+/* .dashboard .main .chart{
+  margin-top: -40px;
+  position: relative;
+  height: 220px;
+} */
+
+/*== First chart ==*/
+/* .dashboard .main .first_chart{
+  width: 370px;
+  height: 170px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.dashboard .main .first_chart .chartBox{
+  width: 170px;
+  left: 300px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -220px;
+  height: 170px;
+}
+
+.dashboard .main .first_chart h1{
+  position: absolute;
+  margin: 10px 0px 0px 0px;
+}
+
+.dashboard .main .first_chart p{
+  position: absolute;
+  margin-top: 60px;
+}
+
+.dashboard .main .first_chart h2{
+  position: absolute;
+  margin: 70px 0px 0px -150px;
+} */
+
+
+/* First chart ends*/
+
+/* == Second chart == */
+.dashboard .main div.second_chart{
+  width: 370px;
+  height: 170px;
+  position: absolute;
+  margin-left: 420px;
+}
+
+.dashboard .main .chart .second_chart .chartBox{
+  width: 170px;
+  left: 300px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -285px;
+  height: 170px;
+}
+
+.dashboard .main .second_chart h1{
+  position: absolute;
+  margin: 10px 0px 0px 0px;
+}
+
+.dashboard .main .second_chart p{
+  position: absolute;
+  margin-top: 60px;
+}
+
+.dashboard .main .second_chart h2{
+  position: absolute;
+  margin: 70px 0px 0px -150px;
+}
+
+/* Second chart ends */
+
+/* Third chart */
+.dashboard .main div.third_chart{
+  width: 370px;
+  height: 170px;
+  margin-right: -100px;
+  margin-left: 820px;
+  position: absolute;
+}
+
+.dashboard .main .chart .third_chart .chartBox{
+  width: 170px;
+  left: 300px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -280px;
+  height: 170px;
+}
+
+.dashboard .main div.third_chart h1{
+  position: absolute;
+  margin: 10px 0px 0px 0px;
+}
+
+.dashboard .main div.third_chart p{
+  position: absolute;
+  margin-top: 60px;
+}
+
+.dashboard .main .third_chart h2{
+  position: absolute;
+  margin: 70px 0px 0px -150px;
+}
+/* Third chart ends */
+
+
+table{
+  margin-top: 25px;
+  /* width: 100%; */
+  margin-left: 70px;
+}
+
+.dashboard .main table thead tr th{
+  font-size: 15px;
+}
+
+.dashboard .main table thead tr th.number{
+  left: 0px;
+}
+
+.dashboard .main table thead tr th.course_name{
+  left: 150px;
+}
+
+.dashboard .main table thead tr th.department{
+  left: 450px;
+}
+
+.dashboard .main table thead tr th.units{
+  right: -200px;
+}
+
+.dashboard .main table thead tr th.gpa{
+  right: -270px;
+}
+
+/* Table body */
+.dashboard .main table tbody{
+  height: 200px;
+}
+
+td{
+  padding: 1px 1px 1px 1px;
+}
+
+tr td.number{
+  right: 120px;
+}
+
+tr td.course_name{
+  left: 150px;
+}
+
+tr td.department{
+  left: 450px;
+}
+
+tr td.units{
+   right: 300px;
+}
+
+tr td.gpa{
+  right: 30px;
+}
+
+/* Table body ends*/
+
+/* Last */
+.dashboard .main .last{
+  margin-top: 260px;
+  margin-left: 70px;
+  height: 160px;
+}
+
+.dashboard .main .last img{
+  height: 170px;
+  top: -10px;
+}
+
+.dashboard .main .last .words button{
+  height: 40px;
+}
+/* Last ends */
+}
