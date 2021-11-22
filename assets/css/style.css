@@ -9,7 +9,6 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: white;
-  /* max-width: 2500px; */
 }
 
 /* Navigation */
@@ -21,6 +20,7 @@ body {
   box-shadow: 1px 3px 2px rgba(0 0 0/ 0.4)
 }
 
+/* Logo */
 .dashboard .navigation div img.logo{
   margin-left: 10px;
   margin-top: 10px;
@@ -72,7 +72,7 @@ body {
   top: 3px;
   left: 55px;
 }
-/* Tab */
+/* Tab ends*/
 
 /* Gift */
 .dashboard .navigation .gift{
@@ -116,9 +116,11 @@ body {
 }
 /* == Gift end ==*/
 
+/* Tab end */
+
+
 /* Main */
 .main{
-  /* width: 5%; */
   margin-left: 17%;
   margin-top: -900px;
 }
@@ -182,14 +184,13 @@ body {
   right: -70px;
   position: absolute;
 }
-/* Search ends */
+/* Search end */
 
 
 /* Chart */
 .dashboard .main .chart{
   margin-top: 20px;
   position: relative;
-  /* height: 220px; */
 }
 
 /*== First chart ==*/
@@ -224,8 +225,6 @@ body {
   position: absolute;
   margin: 70px 0px 0px 75px;
 }
-
-
 /* First chart ends*/
 
 /* == Second chart == */
@@ -306,6 +305,7 @@ table{
   position: relative;
 }
 
+/* Table head */
 .dashboard .main table thead{
   background-color: black;
   width: 1200px;
@@ -345,6 +345,7 @@ table{
   right: 30px;
   position: absolute;
 }
+/* Table head end */
 
 /* Table body */
 .dashboard .main table tbody{
@@ -361,8 +362,6 @@ td{
 }
 
 tr td.number{
-  left: 120px;
-  /* position: absolute; */
 }
 
 tr td.course_name{
@@ -385,13 +384,11 @@ tr td.gpa{
   position: absolute;
 }
 
-/* Table body ends*/
+/* Table body end */
 
 /* Last */
 .dashboard .main .last{
-  margin-top: 350px;
-  margin-left: 0px;
-  margin-bottom: 10px;
+  margin: 350px 0px 10px 0px;
   height: 230px;
   width: 1200px;
   background-color: black;
@@ -434,5 +431,7 @@ tr td.gpa{
   position: absolute;
   top: 170px;
 }
-/* Last ends */
+/* Last end */
+
+/* Main end */
 }
