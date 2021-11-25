@@ -9,13 +9,17 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: white;
-  max-width: 1400px;
+  /* max-width: 1400px; */
+}
+
+/* Dashboard */
+.dashboard{
+  display: flex;
 }
 
 /* Navigation */
 .dashboard .navigation{
   display: block;
-  width: 15%;
   padding-bottom: 0px;
   height: 125vh;
   box-shadow: 1px 3px 2px rgba(0 0 0/ 0.4)
@@ -26,7 +30,7 @@ body {
   margin-left: 5px;
   margin-top: 10px;
   height: 30px;
-  width: 200px;
+  width: 90%;
 }
  /* Tab */
 .dashboard .navigation .tab{
@@ -83,7 +87,7 @@ body {
   bottom: 10px;
   margin-left: 10px;
   border-radius: 10px;
-  /* margin: 10px 10px; */
+  margin: 10px 10px;
   box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
   position: relative;
 }
@@ -109,7 +113,7 @@ body {
 .dashboard .navigation .gift button{
   height: 30px;
   width: 120px;
-  left: 45px;
+  left: 37px;
   bottom: 5px;
   background-color: #00838F;
   color: white;
@@ -124,34 +128,33 @@ body {
 
 /* Main */
 .main{
-  margin-left: 17%;
-  margin-top: -900px;
+  width: 82%;
 }
 
 /* Search */
 .dashboard .main .search{
   height: 70px;
-  width: 1308px;
-  margin-left: -27px;
-  box-shadow: 0px 0px 0px 2px rgba(0 0 0/ 0.15);
-  position: relative;
+  width: 1303px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 1px 3px 2px rgba(0 0 0/ 0.15);
 }
 
 .dashboard .main .search h1{
-  position: absolute;
   top: 2px;
-  left: 20px;
+  left: 30px;
 }
 
 .dashboard .main .search form{
-  margin: 15px 0px 0px 500px;
-  position: absolute;
+  margin: 15px 0px 0px 0px;
+  position: relative;
 }
 
 .dashboard .main .search form input{
   height: 40px;
   width: 17em;
-  margin-left: 370px;
+  margin-left: 30px;
   font-size: 15px;
   border: 1px solid #dadada;
   border-radius: 20px;
@@ -160,31 +163,26 @@ body {
 
 .dashboard .main .search form img{
   position: absolute;
-  left: 590px;
-  top: 5px;
-}
-
-.dashboard .main .search div{
-  left: 1200px;
-  top: 45px;
-  position: absolute;
+  margin-left: 250px;
+  top: 10px;
 }
 
 .dashboard .main .search .notification{
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: -30px;
+  margin-top: 20px;
 }
 
 .dashboard .main .search .notification img:nth-child(1){
-  right: 10px;
-  top: 13px;
+  right: 70px;
+  height: 30px;
   position: absolute;
 }
 
 .dashboard .main .search .notification img:nth-child(2){
-  right: -70px;
+  right: 0px;
+  height: 30px;
   position: absolute;
 }
 /* Search end */
@@ -194,6 +192,7 @@ body {
 .dashboard .main .chart{
   margin-top: 20px;
   position: relative;
+  left: 30px;
 }
 
 /*== First chart ==*/
@@ -303,9 +302,8 @@ body {
 /* Table */
 table{
   margin-top: 240px;
-  width: 90%;
-  margin-left: -5px;
   position: relative;
+  left: 30px;
 }
 
 /* Table head */
@@ -356,8 +354,9 @@ table{
   width: 1200px;
   position: absolute;
   margin-top: 40px;
+  background-color: white;
   border-radius: 0px 0px 10px 10px;
-  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15)
+  box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
 }
 
 td{
@@ -365,6 +364,8 @@ td{
 }
 
 tr td.number{
+  left: 50px;
+  /* position: absolute; */
 }
 
 tr td.course_name{
@@ -391,13 +392,14 @@ tr td.gpa{
 
 /* Last */
 .dashboard .main .last{
-  margin: 350px 0px 10px 0px;
+  margin: 350px 0px 0px 0px;
   height: 230px;
   width: 1200px;
   background-color: black;
   border-radius: 10px;
   color: white;
   position: relative;
+  left: 30px;
 }
 
 .dashboard .main .last .words{
