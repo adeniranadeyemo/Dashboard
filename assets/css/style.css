@@ -104,9 +104,8 @@ body {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
-  top: 80px;
-  left: 30px;
-  right: 30px;
+  top: 75px;
+  left: 45px;
   position: absolute;
 }
 
@@ -147,7 +146,7 @@ body {
 }
 
 .dashboard .main .search form{
-  margin: 15px 0px 0px 0px;
+  margin: 15px -200px 0px 0px;
   position: relative;
 }
 
@@ -323,7 +322,7 @@ table{
 }
 
 .dashboard .main table thead tr th.number{
-  left: 0px;
+  left: 30px;
   position: absolute;
 }
 
@@ -364,8 +363,8 @@ td{
 }
 
 tr td.number{
-  left: 50px;
-  /* position: absolute; */
+  position: relative;
+  left: 30px;
 }
 
 tr td.course_name{
@@ -422,7 +421,6 @@ tr td.gpa{
 }
 
 .dashboard .main .last .words p{
-  margin-right: 300px;
   position: absolute;
   top: 70px;
 }
