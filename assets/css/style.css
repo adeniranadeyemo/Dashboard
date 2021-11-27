@@ -29,6 +29,7 @@ body {
   height: 30px;
   width: 90%;
 }
+
  /* Tab */
 .dashboard .navigation .tab{
   margin-top: 40px;
@@ -61,7 +62,7 @@ body {
 
 .dashboard .navigation .tab .unit .category{
   height: 50px;
-  width: 13px;
+  width: 5%;
   border-radius: 0px 5px 5px 0px;
   background-color: #A25075;
   margin-top: 3px;
@@ -80,16 +81,16 @@ body {
 /* Gift */
 .dashboard .navigation .gift{
   height: 200px;
-  width: 185px;
+  width: 90%;
   top: 290px;
-  left: 15px;
+  left: 10px;
   border-radius: 10px;
   box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
   position: relative;
 }
 
 .dashboard .navigation .gift .box{
-  width: 150px;
+  width: 80%;
   height: auto;
   bottom: 110px;
   left: 25px;
@@ -107,8 +108,8 @@ body {
 
 .dashboard .navigation .gift button{
   height: 30px;
-  width: 120px;
-  left: 37px;
+  width: 70%;
+  left: 30px;
   bottom: 5px;
   background-color: #00838F;
   color: white;
@@ -129,7 +130,7 @@ body {
 /* Search */
 .dashboard .main .search{
   height: 70px;
-  width: 1303px;
+  width: 104.7%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -144,7 +145,7 @@ body {
 .dashboard .main .search form input{
   height: 40px;
   width: 23em;
-  left: 150px;
+  left: 200px;
   top: 15px;
   font-size: 15px;
   border: 1px solid #dadada;
@@ -154,8 +155,8 @@ body {
 
 .dashboard .main .search form img{
   position: absolute;
-  margin-left: 120px;
-  top: 25px;
+  margin: 25px 0px 0px 160px;
+  /* top: 25px; */
 }
 
 .dashboard .main .search .notification{
@@ -171,7 +172,7 @@ body {
 }
 
 .dashboard .main .search .notification img:nth-child(2){
-  margin-right: 75px;
+  margin-right: 35px;
   height: 30px;
 }
 /* Search end */
@@ -179,13 +180,14 @@ body {
 /* Chart */
 .dashboard .main .chart{
   margin-top: 20px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 /*== First chart ==*/
 .dashboard .main .first_chart{
-  width: 350px;
+  width: 30%;
   height: 170px;
   margin-left: 30px;
   border-radius: 10px;
@@ -194,7 +196,7 @@ body {
 }
 
 .dashboard .main .first_chart .chartBox{
-  width: 170px;
+  width: 50%;
   left: 10px;
   position: absolute;
   top: 5px;
@@ -203,23 +205,23 @@ body {
 
 .dashboard .main .first_chart h1{
   position: absolute;
-  margin: 10px 0px 0px 250px;
+  margin: 10px 0px 0px 270px;
 }
 
 .dashboard .main .first_chart p{
   position: absolute;
-  margin: 40px 0px 0px 250px;
+  margin: 40px 0px 0px 270px;
 }
 
 .dashboard .main .first_chart h2{
   position: absolute;
-  margin: 70px 0px 0px 75px;
+  margin: 70px 0px 0px 85px;
 }
 /* First chart ends*/
 
 /* == Second chart == */
 .dashboard .main div.second_chart{
-  width: 370px;
+  width: 30%;
   height: 170px;
   position: relative;
   margin-left: -5px;
@@ -229,10 +231,9 @@ body {
 
 .dashboard .main .chart .second_chart .chartBox{
   height: 170px;
-  width: 170px;
+  width: 50%;
   position: absolute;
-  top: 5px;
-  left: 10px;
+  margin: 5px 0px 0px 10px;
 }
 
 .dashboard .main .second_chart h1{
@@ -247,23 +248,23 @@ body {
 
 .dashboard .main .second_chart h2{
   position: absolute;
-  margin: 70px 0px 0px 75px;
+  margin: 70px 0px 0px 85px;
 }
 
 /* Second chart ends */
 
 /* Third chart */
 .dashboard .main div.third_chart{
-  width: 370px;
+  width: 30%;
   height: 170px;
-  right: 10px;
+  margin-right: -25px;
   position: relative;
   border-radius: 10px;
   box-shadow: 1px 1px 3px 4px rgba(0 0 0 / 0.15);
 }
 
 .dashboard .main .chart .third_chart .chartBox{
-  width: 170px;
+  width: 50%;
   left: 10px;
   position: absolute;
   height: 170px;
@@ -282,7 +283,7 @@ body {
 
 .dashboard .main .third_chart h2{
   position: absolute;
-  margin: 70px 0px 0px 75px;
+  margin: 70px 0px 0px 85px;
 }
 /* Third chart ends */
 
@@ -290,13 +291,14 @@ body {
 table{
   margin-top: 40px;
   position: relative;
+  width: 100%;
   left: 30px;
 }
 
 /* Table head */
 .dashboard .main table thead{
   background-color: black;
-  width: 1200px;
+  width: 100%;
   height: 40px;
   color: white;
   border-radius: 10px 10px 0px 0px;
@@ -338,7 +340,7 @@ table{
 /* Table body */
 .dashboard .main table tbody{
   height: 260px;
-  width: 1200px;
+  width: 100%;
   position: absolute;
   margin-top: 40px;
   background-color: white;
@@ -381,7 +383,7 @@ tr td.gpa{
 .dashboard .main .last{
   margin: 350px 0px 0px 0px;
   height: 230px;
-  width: 1200px;
+  width: 100%;
   background-color: black;
   border-radius: 10px;
   color: white;
@@ -393,7 +395,7 @@ tr td.gpa{
 .dashboard .main .last .words{
   margin-left: 70px;
   position: absolute;
-  width: 700px;
+  width: 50%;
 }
 
 .dashboard .main .last img{
@@ -416,7 +418,7 @@ tr td.gpa{
 
 .dashboard .main .last .words button{
   height: 40px;
-  width: 130px;
+  width: 20%;
   border-radius: 30px;
   background-color: white;
   color: #A25075;
